@@ -47,24 +47,27 @@
             </div>
          </div>
       </div> 
-      <!-- <div class="th-menu-wrapper">
-         <div class="th-menu-area text-center">
-            <div class="mobile-logo">
-               <a class="icon-masking" href="index.html">
-                  <span data-mask-src="assets/img/uukti-name.svg" class="mask-icon"></span>
-               </a>
-            </div>
-            <div class="th-mobile-menu" >
+      <div class="th-menu-wrapper">
+         <div class="th-menu-area ">
+            
+            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="th-mobile-menu">
+               <div class="header-logo">
+                  <a class="icon-masking" href="index.html">
+                  <span data-mask-src="assets/img/uukti-name-mobile.svg" class="mask-icon"></span>
+                  <img src="assets/img/uukti-name-mobile.svg" alt="uukti"></a></div>
+               </div>
                <ul>
                   <li><a href="#">Home</a></li>
                   <li><a href="#about-sec">About Us</a></li>
-                  
+                  <li><a href="#service-sec">Services</a></li>
                </ul>
             </div>
          </div>
-      </div> -->
+      </div>
       
-      <header class="th-header header-layout18 header-absolute onepage  -nav">
+      <header class="th-header header-layout18 header-absolute onepage-nav">
+        
          <div>
             <div class="menu-area">
                <div class="container th-container4">
@@ -72,27 +75,29 @@
                      <div class="col-auto">
                         <div class="header-logo">
                            <a class="icon-masking" href="index.html">
-                              <span data-mask-src="assets/img/uukti-logo.svg" class="mask-icon"></span>
-                              <img src="assets/img/uukti-name.svg"  alt="uukti">
-                           </a>
+                              <span data-mask-src="assets/img/uukti-name.svg" class="mask-icon"></span>
+                              <img src="assets/img/uukti-name.svg" alt="uukti"></a></div>
                         </div>
-                     </div>
                      <div class="col-auto">
-                        <nav class="main-menu">
+                        <nav class="main-menu d-none d-lg-inline-block">
                            <ul>
                               <li><a href="#" style="color: #000000;">Home</a></li>
                               <li><a href="#about-sec" style="color: #000000;">About Us</a></li>
                               <li><a href="#service-sec" style="color: #000000;">Services</a></li>
                            </ul>
                         </nav>
+                        <button type="button" class="th-menu-toggle d-block d-lg-none">
+                           <i class="far fa-bars"></i></button>
                      </div>
                      <div class="col-auto d-none d-xl-inline-block">
+                        <!-- <div class="header-button"><a href="service.html" class="th-btn style-radius style3 text-capitalize">View All Services</a> <a href="#" class="icon-btn sideMenuToggler"><i class="fal fa-bars"></i></a></div> -->
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </header>
+     
       <div class="th-hero-wrapper hero-19" id="hero" >
          <div class="hero19-overlay" style=" background-image: url(assets/img/header-background.svg);"></div>
          <div class="swiper th-slider" id="heroSlide19" data-slider-options='{"effect":"fade"}'>
@@ -201,13 +206,13 @@
                   </div>
                </div>
             </div>
-            <div class="slider-area th-radius2" style="height: 950px;" data-bg-src="assets/img/Lead-generation-background-generic.png">
+            <div class="slider-area th-radius2" style="height: 650px;" data-bg-src="assets/img/Lead-generation-background-generic.png">
                <div class="swiper th-slider has-shadow" id="serviceSlide18" data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
                   <div class="swiper-wrapper">
                      <div class="swiper-slide">
-                        <div class="service_box" >
+                        <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title" ><a href="service-details.html">Digital Transformation for Traditional Businesses</a></h3>
+                              <h3 class="box-title" style="position: relative;">Digital Transformation for Traditional Businesses</h3>
                               <p class="service_box_text" >Transforming a traditional MSME into a digitally-enabled business involves a strategic
                                  overhaul of its operations, processes, and customer interactions using modern technology.</p>
                            </div>
@@ -216,7 +221,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">Custom Software Development</a></h3>
+                              <h3 class="box-title" style="position: relative;">Custom Software Development</h3>
                               <p class="service_box_text">Custom Software Development involves creating tailored software solutions to automate or
                                  improve business processes. </p>
                            </div>
@@ -225,7 +230,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">AR/VR Simulation Development</a></h3>
+                              <h3 class="box-title" style="position: relative;">AR/VR Simulation Development</h3>
                               <p class="service_box_text" >AR (Augmented Reality) and VR (Virtual Reality) solutions offer immersive technologies
                                  that redefine how MSMEs train employees, showcase products, and engage customers.</p>
                            </div>
@@ -234,7 +239,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">Website and Application Development & Hosting</a></h3>
+                              <h3 class="box-title" style="position: relative;">Website and Application Development & Hosting</h3>
                               <p class="service_box_text" >This service combines website development with application (mobile and web-based)
                                  development to provide a comprehensive digital platform for MSMEs.</p>
                            </div>
@@ -243,7 +248,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">Digital Transformation for Traditional Businesses</a></h3>
+                              <h3 class="box-title" style="position: relative;">Digital Transformation for Traditional Businesses</h3>
                               <p class="service_box_text" >Transforming a traditional MSME into a digitally-enabled business involves a strategic
                                  overhaul of its operations, processes, and customer interactions using modern technology.</p>
                            </div>
@@ -252,7 +257,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">Custom Software Development</a></h3>
+                              <h3 class="box-title" style="position: relative;">Custom Software Development</h3>
                               <p class="service_box_text" >Custom Software Development involves creating tailored software solutions to automate or
                                  improve business processes. </p>
                            </div>
@@ -261,7 +266,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">AR/VR Simulation Development</a></h3>
+                              <h3 class="box-title" style="position: relative;">AR/VR Simulation Development</h3>
                               <p class="service_box_text">AR (Augmented Reality) and VR (Virtual Reality) solutions offer immersive technologies
                                  that redefine how MSMEs train employees, showcase products, and engage customers.</p>
                            </div>
@@ -270,7 +275,7 @@
                      <div class="swiper-slide">
                         <div class="service_box">
                            <div class="service_box_content">
-                              <h3 class="box-title"><a href="service-details.html">Website and Application Development & Hosting</a></h3>
+                              <h3 class="box-title" style="position: relative;">Website and Application Development & Hosting</h3>
                               <p class="service_box_text" >This service combines website development with application (mobile and web-based)
                                  development to provide a comprehensive digital platform for MSMEs.</p>
                            </div>
@@ -278,10 +283,16 @@
                      </div> 
                   </div>
                </div>
-               <button data-slider-prev="#serviceSlide18" class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button> <button data-slider-next="#serviceSlide18" class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
+               <!-- <button data-slider-prev="#serviceSlide18" class="slider-arrow slider-prev">
+                  <i class="far fa-arrow-left"></i>
+               </button> 
+               <button data-slider-next="#serviceSlide18" class="slider-arrow slider-next" style="color: #000000;">
+                  <i class="far fa-arrow-right"></i>
+               </button> -->
             </div>
          </div>
       </section>
+       <div class="tooltip" id="tooltip"></div>
       <footer class="footer-wrapper footer-layout17" data-bg-color="#030f2a" >
          <div class="widget-area">
             <div class="container th-container4">
@@ -331,5 +342,29 @@
       <script src="assets/js/particles.min.js"></script>
       <script src="assets/js/particles-config.js"></script>
       <script src="assets/js/main.js"></script>
+      <script>
+         document.addEventListener('DOMContentLoaded', () => {
+            const serviceBoxes = document.querySelectorAll('.service_box');
+            const tooltip = document.getElementById('tooltip');
+
+            serviceBoxes.forEach(box => {
+               box.addEventListener('mouseover', (e) => {
+                  tooltip.textContent = box.getAttribute('data-description');
+                  tooltip.style.display = 'block';
+                  tooltip.style.left = `${e.pageX + 10}px`;
+                  tooltip.style.top = `${e.pageY + 10}px`;
+               });
+
+               box.addEventListener('mousemove', (e) => {
+                  tooltip.style.left = `${e.pageX + 10}px`;
+                  tooltip.style.top = `${e.pageY + 10}px`;
+               });
+
+               box.addEventListener('mouseout', () => {
+                  tooltip.style.display = 'none';
+               });
+            });
+         });
+      </script>
    </body>
 </html>

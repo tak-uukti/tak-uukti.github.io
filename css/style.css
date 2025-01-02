@@ -1496,7 +1496,7 @@ textarea.is-invalid {
 .th-slider.has-shadow {
 	padding-left: 12px;
 	padding-right: 12px;
-	margin: -25px -12px
+	/* margin: -25px -12px */
 }
 
 .th-slider.has-shadow .swiper-wrapper {
@@ -6128,7 +6128,7 @@ a.text-theme:hover,
 	display: block;
 	position: relative;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 20px;
 	color: #000000;
 	font-family: var(--title-font);
 	text-transform: uppercase
@@ -7419,6 +7419,19 @@ a.text-theme:hover,
 	width: 100%;
 	border-radius: 0px 0px 0px 0px 
 }
+
+.tooltip{
+	position: absolute;
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	display: none;
+	z-index: 1000;
+	white-space: nowrap;
+}
+
 
 @media (max-width: 991px) {
 	.header-layout18 .menu-area {
@@ -31548,8 +31561,8 @@ span.select2-selection.select2-selection--single:focus {
 	border-radius: 20px;
 	background-color: var(--white-color);
 	/* background-color: var(--white-color);  */
-	padding: 30px;
-	height : 350px;
+	padding: 50px;
+	height : 400px;
 	/* background-color: #c38a20e6; */
 	
 }
